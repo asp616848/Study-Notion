@@ -1,19 +1,19 @@
 // Icons Import
-import { FaArrowRight } from "react-icons/fa"
-import { Link } from "react-router-dom"
+import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 // Image and Video Import
-import Banner from "../assets/Images/banner.mp4"
+import Banner from "../assets/Images/banner.mp4";
 // Component Imports
-import Footer from "../components/common/Footer"
-import ReviewSlider from "../components/common/ReviewSlider"
-import CTAButton from "../components/core/HomePage/Button"
-import CodeBlocks from "../components/core/HomePage/CodeBlocks"
-import ExploreMore from "../components/core/HomePage/ExploreMore"
-import HighlightText from "../components/core/HomePage/HighlightText"
-import InstructorSection from "../components/core/HomePage/InstructorSection"
-import LearningLanguageSection from "../components/core/HomePage/LearningLanguageSection"
-import TimelineSection from "../components/core/HomePage/TimelineSection"
+import Footer from "../components/common/Footer";
+import ReviewSlider from "../components/common/ReviewSlider";
+import CTAButton from "../components/core/HomePage/Button";
+import CodeBlocks from "../components/core/HomePage/CodeBlocks";
+import ExploreMore from "../components/core/HomePage/ExploreMore";
+import HighlightText from "../components/core/HomePage/HighlightText";
+import InstructorSection from "../components/core/HomePage/InstructorSection";
+import LearningLanguageSection from "../components/core/HomePage/LearningLanguageSection";
+import TimelineSection from "../components/core/HomePage/TimelineSection";
 
 function Home() {
   return (
@@ -33,14 +33,14 @@ function Home() {
         {/* Heading */}
         <div className="text-center text-4xl font-semibold">
           Empower Your Future with
-          <HighlightText text={"Coding Skills"} />
+          <HighlightText text={"Vocational Skills"} />
         </div>
 
         {/* Sub Heading */}
         <div className="-mt-3 w-[90%] text-center text-lg font-bold text-richblack-300">
-          With our online coding courses, you can learn at your own pace, from
-          anywhere in the world, and get access to a wealth of resources,
-          including hands-on projects, quizzes, and personalized feedback from
+          With our online vocational courses, you can learn at your own pace,
+          from anywhere in the world, and get access to a wealth of resources,
+          including VR lab experience, quizzes, and personalized feedback from
           instructors.
         </div>
 
@@ -50,7 +50,7 @@ function Home() {
             Learn More
           </CTAButton>
           <CTAButton active={false} linkto={"/login"}>
-            Book a Demo
+            Explore Courses
           </CTAButton>
         </div>
 
@@ -73,7 +73,7 @@ function Home() {
             heading={
               <div className="text-4xl font-semibold">
                 Unlock your
-                <HighlightText text={"coding potential"} /> with our online
+                <HighlightText text={"vocational skils"} /> with our online
                 courses.
               </div>
             }
@@ -81,7 +81,7 @@ function Home() {
               "Our courses are designed and taught by industry experts who have years of experience in coding and are passionate about sharing their knowledge with you."
             }
             ctabtn1={{
-              btnText: "Try it Yourself",
+              btnText: "Learn Skill",
               link: "/signup",
               active: true,
             }}
@@ -97,17 +97,17 @@ function Home() {
         </div>
 
         {/* Code Section 2 */}
-        <div>
+        {/* <div>
           <CodeBlocks
             position={"lg:flex-row-reverse"}
             heading={
               <div className="w-[100%] text-4xl font-semibold lg:w-[50%]">
-                Start
-                <HighlightText text={"coding in seconds"} />
+                Start applying your
+                <HighlightText text={"skills in seconds"} />
               </div>
             }
             subheading={
-              "Go ahead, give it a try. Our hands-on learning environment means you'll be writing real code from your very first lesson."
+              "Go ahead, give it a try. Our hands-on Virtual Reality learning environment means you'll be applying your skills from your very first lesson."
             }
             ctabtn1={{
               btnText: "Continue Lesson",
@@ -123,7 +123,7 @@ function Home() {
             codeblock={`import React from "react";\n import CTAButton from "./Button";\nimport TypeAnimation from "react-type";\nimport { FaArrowRight } from "react-icons/fa";\n\nconst Home = () => {\nreturn (\n<div>Home</div>\n)\n}\nexport default Home;`}
             backgroundGradient={<div className="codeblock2 absolute"></div>}
           />
-        </div>
+        </div> */}
 
         {/* Explore Section */}
         <ExploreMore />
@@ -158,9 +158,8 @@ function Home() {
             </div>
             <div className="flex flex-col items-start gap-10 lg:w-[40%]">
               <div className="text-[16px]">
-                The modern StudyNotion is the dictates its own terms. Today, to
-                be a competitive specialist requires more than professional
-                skills.
+                SkillGrid dictates its own terms. Today, to be a competitive
+                specialist requires more than professional skills.
               </div>
               <CTAButton active={true} linkto={"/signup"}>
                 <div className="">Learn More</div>
@@ -191,7 +190,7 @@ function Home() {
       {/* Footer */}
       <Footer />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

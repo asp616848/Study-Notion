@@ -1,116 +1,70 @@
 export const HomePageExplore = [
     {
-        tag: 'Free',
-        courses : [
-            {
-                heading : "Learn HTML",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-            {
-                heading : "Learn CSS",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-            {
-                heading : "Responsive Web design",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-        ]
-    },
-    {
-        tag: 'New to coding',
-        courses : [
-            {
-                heading : "HTML",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-            {
-                heading : "CSS",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-            {
-                heading : "Responsive ",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
-                lessionNumber : 6
-            },
-        ]
-    },
-    {
         tag: 'Most popular',
-        courses : [
+        courses: [
             {
-                heading : "Java",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading: "Digital Marketing",
+                description: "Learn SEO, social media, and content marketing to promote businesses online.",
+                level: 'Beginner',
+                lessionNumber: 6
             },
             {
-                heading : "Python",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading: "Carpentry",
+                description: "Involves woodworking, framing, and finishing to construct and repair structures.",
+                level: 'Medium',
+                lessionNumber: 15
             },
             {
-                heading : "SCSS",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading: "Electrician Training",
+                description: "Focuses on wiring, lighting, and electrical system installation and maintenance.",
+                level: 'Medium',
+                lessionNumber: 15
             },
         ]
     },
     {
         tag: 'Skills paths',
-        courses : [
+        courses: [
             {
-                heading : "Flask",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading: "Culinary Arts",
+                description: "Covers food preparation, cooking techniques, and kitchen management.",
+                level: 'Beginner',
+                lessionNumber: 6
             },
             {
-                heading : "Django",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading: "Welding Technology",
+                description: "Teaches methods to join metals using various welding techniques.",
+                level: 'Beginner',
+                lessionNumber: 5
             },
             {
-                heading : "Fast API",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading: "Automotive Technology",
+                description: "Provides knowledge in vehicle repair, maintenance, and diagnostics.",
+                level: 'Advanced',
+                lessionNumber: 18
             },
         ]
     },
     {
         tag: 'Career paths',
-        courses : [
+        courses: [
             {
-                heading : "Next.js",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading: "Nursing",
+                description: "Involves patient care and medical support in various healthcare settings.",
+                level: 'Advanced',
+                lessionNumber: 25
             },
             {
-                heading : "Nuxt.js",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading: "Web Development",
+                description: "Focuses on building and maintaining websites and web applications.",
+                level: 'Medium',
+                lessionNumber: 10
             },
             {
-                heading : "Sanity",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading: "Industrial Design",
+                description: "Involves creating and developing concepts for manufactured products.",
+                level: 'Medium',
+                lessionNumber: 10
             },
         ]
     },
